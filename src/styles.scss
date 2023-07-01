@@ -2,28 +2,66 @@
 @import 'scss/base';
 
 body {
-  padding: 32px;
+    background-color: black;
 }
 
-.hero {
-  height: 100%;
-  background: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
+.navBar {
+    height: 10%;
+    color : white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-color: white;
+    border-bottom: solid;
 
-  h1 {
-    font-size: calc(54vw * 100 / 1440);
-    margin-bottom: calc(12vw * 100 / 1440);
-  }
 
-  p {
-    font-size: calc(24vw * 100 / 1440);
-  }
+    p#title {
+        margin-left: 2vw;
+    }
+
+    p#first {
+        margin-left: 20vw;
+    }
+
+    p#last{
+        margin-left: 18vw;
+    }
+
+    h1 {
+        font-size: calc(54vw * 100 / 1440);
+        margin-bottom: calc(12vw * 100 / 1440);
+    }
+
+    .fct {
+        padding: 5vw;
+    }
+
+    p {
+        font-size: calc(24vw * 100 / 1440);
+    }
 }
 
+.ideas{
+    height: 20vw;
+    width: 50%;
+    background: white;
+}
+
+.boost{
+    height: 20vw;
+    width: 50%;
+    background: white;
+    margin-left: 2vw;
+}
+
+.scdfromTop{
+    flex-direction: row;
+    display:flex;
+    margin-top: 4vw;
+    margin-left:2vw;
+
+
+}
 a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
